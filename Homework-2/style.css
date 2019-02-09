@@ -1,0 +1,44 @@
+header {
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 26px;
+    text-align: center;
+}
+
+img {
+    width: 20%;
+    height: 20%;
+}
+
+nav {
+    padding-top: 3%;
+    padding-left: 10%;
+}
+
+table {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    font-style: bold;
+    width: 80%;
+    text-align: center;
+    border-collapse: inherit;
+}
+
+td,
+th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: chartreuse;
+    font-style: italic;
+}
+
+#block1 {
+    border: 1px solid saddlebrown;
+}
