@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Form page
+    </title>
+</head>
+
+<body>
+    <h2>Form</h2>
+
+    <form action="item.html">
+        First name:<br>
+        <input type="text" name="firstname" placeholder="firstname" />
+        <br> Last name:<br>
+        <input type="text" name="lastname" placeholder="lastname" />
+        <br> Gender:<br>
+        <input type="radio" name="gender" value="male" checked> Male<br>
+        <input type="radio" name="gender" value="female"> Female<br>
+        <br> Choose the profession:<br>
+        <select name="jobs">
+            <option value="developer">Software developer</option>
+            <option value="dentist">Dentist</option>
+            <option value="sales">Sales manager</option>
+            <option value="other">Other</option>
+        </select>
+        <br> Leave your comment:<br>
+        <textarea name="message" rows="10" cols="30">Ready on upon the request.</textarea>
+        <br><br>
+        <button type="submit" value="Create">Create</button>
+        <button type="reset" value="Change">Change</button>
+    </form>
+
+</body>
+
+</html>
