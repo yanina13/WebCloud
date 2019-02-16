@@ -1,0 +1,25 @@
+table {
+    margin: 0;
+    min-width: 100%;
+    border-spacing: 1rem;
+}
+
+.ornage td {
+    background-color: orange;
+    height: 8rem;
+}
+
+.yellow td {
+    background-color: yellow;
+    height: 24rem;
+}
+
+.blue td {
+    background-color: blue;
+    height: 16rem;
+}
+
+.gray td {
+    background-color: gray;
+    height: 12rem;
+}

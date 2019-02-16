@@ -1,0 +1,31 @@
+.container {
+    width: 60%;
+    height: 60%;
+}
+
+.blue {
+    width: 20rem;
+    height: 20rem;
+    background-color: blue;
+    position: absolute;
+    margin: 30rem;
+    z-index: 1;
+}
+
+.red {
+    width: 20rem;
+    height: 20rem;
+    position: absolute;
+    background-color: red;
+    margin: 10rem;
+    z-index: 2;
+}
+
+.green {
+    width: 20rem;
+    height: 20rem;
+    position: absolute;
+    background-color: green;
+    margin: 20rem;
+    z-index: 3;
+}

@@ -1,0 +1,49 @@
+.main {
+    width: 100%;
+}
+
+.main div:first-child {
+    margin-left: 0;
+}
+
+.main div:last-child {
+    margin-right: 0;
+}
+
+.container {
+    margin-bottom: 3rem;
+    float: left;
+    width: 100%;
+}
+
+.orange {
+    float: left;
+    background-color: orange;
+    width: 49%;
+    height: 8rem;
+    margin-left: 2%;
+    float: left;
+}
+
+.yellow {
+    background-color: yellow;
+    width: 100%;
+    height: 24rem;
+    margin: 0 0 0 0;
+}
+
+.blue {
+    float: left;
+    background-color: blue;
+    width: 32%;
+    height: 16rem;
+    margin: 0 0 0 2%;
+}
+
+.gray {
+    float: left;
+    background-color: gray;
+    width: 23.5%;
+    height: 12rem;
+    margin: 0 0 0 2%;
+}

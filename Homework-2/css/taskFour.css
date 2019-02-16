@@ -1,0 +1,76 @@
+body {
+    height: 900px;
+}
+
+header {
+    width: 100%;
+    height: 10%;
+    position: fixed;
+    background-color: aqua;
+}
+
+header:hover {
+    background-color: chartreuse;
+}
+
+#headH2 {
+    padding-top: 5px;
+    text-align: center
+}
+
+#headParag {
+    padding-left: 7px;
+    padding-top: 7px;
+}
+
+.wrapper {
+    height: 100%;
+    width: 10%;
+    float: left;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+}
+
+#rightWRP {
+    margin: 0 0 0 80%;
+}
+
+.wrapper img {
+    display: block;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+#left {
+    transform: scaleX(-1);
+}
+
+menu {
+    position: absolute;
+    margin: 5% 0 0 0;
+    width: 100%;
+    height: 80%;
+}
+
+#menuLeft,
+#menuRight {
+    margin: 0 7.5% 50px 15%;
+    width: 22.5%;
+    float: left;
+    position: relative;
+}
+
+footer {
+    position: absolute;
+    margin-top: 50%;
+    height: 15%;
+    width: 100%;
+    background-color: rgba(112, 102, 255, 0.219);
+    padding: 20px 10px 20px 10px;
+}
+
+footer:hover {
+    background-color: rgb(255, 102, 222);
+}

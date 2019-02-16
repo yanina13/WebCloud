@@ -1,0 +1,45 @@
+body {
+    height: 900px;
+}
+
+header {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 15%;
+    background-color: aqua;
+    border-radius: 0 0 20px 20px;
+}
+
+#headH2 {
+    padding-top: 5px;
+    text-align: center
+}
+
+#headParag {
+    padding-left: 7px;
+    padding-top: 7px;
+}
+
+nav {
+    position: fixed;
+    width: 10%;
+    height: 600px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+#menuText {
+    width: 85%;
+    margin-left: 10%;
+    height: 100%;
+    padding: 0 0 0 1rem;
+}
+
+footer {
+    height: 15%;
+    width: 90%;
+    margin-top: 20%;
+    margin-left: 5%;
+    background-color: aqua;
+    border-radius: 15px 15px 0 0;
+}
